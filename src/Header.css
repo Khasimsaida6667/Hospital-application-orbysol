@@ -1,0 +1,119 @@
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #013246;
+    color: #fff;
+    padding: 10px;
+    height: 17vh;
+  }
+  
+  .big-pipe{
+    background-color: #fff;
+    width: 2px;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 100px;
+ 
+  }
+  .header .logo {
+    display: flex;
+    align-items: center;
+    min-width: 150px;
+  }
+  
+  .header .logo img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .header .search-bar {
+    flex: 1;
+    text-align: left;
+    min-width: 500px;
+  }
+  
+  .header .search-bar input {
+    width: 100%;
+    max-width: 800px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+  }
+ 
+    .search-bar {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+    .user-icon-size{
+        font-size: 20px;
+        display: flex;
+      }
+      .three{
+        margin-left: 10px;
+      }
+    
+    .search-icon {
+      position: absolute;
+      left: 10px;
+      color: #888;
+    }
+    
+    .filter-icon {
+      position: absolute;
+      right: 320px;
+      color: #888;
+      cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+    }
+    .search-bar input::placeholder {
+      padding-left: 20px;
+      color: #888; /* or any other color you prefer */
+      font-style: italic; /* or any other style you prefer */
+    }
+  .search-bar input {
+      padding-left: 30px; /* Adjust this value to create space for the search icon */
+      padding-right: 30px; /* Adjust this value to create space for the filter icon */
+    }
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 2; /* Take remaining space */
+  }
+
+
+  
+  
+  .header .user-info {
+    display: flex;
+    align-items: center;
+    min-width: 150px;
+  }
+  
+  .header .user-info span {
+    margin-right: 10px;
+  }
+  .pipe{
+    padding-right: 10px;
+    font-size: 30px;
+  }
+  
+  .logout-button{
+    cursor: pointer;
+    background-color: #013246;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .logout-button:hover {
+    background-color: #013246;
+    color: #fff;
+  }
+
+

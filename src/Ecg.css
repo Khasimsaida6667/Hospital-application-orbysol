@@ -1,0 +1,48 @@
+
+.ecg-folder-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  /* align-self: right; */
+  /* flex-grow: 0; */
+}
+
+
+.ecg-container {
+  width: 0%;
+  position: relative;
+  margin-right: 0px;
+  /* display: flex; */
+  /* flex-grow: 2; */
+  /* align-self: right; */
+  flex-grow: 1;
+  justify-content: center; 
+}
+
+.ecg-container svg {
+  width: 100%;
+  /* display: block; */
+  margin-left: 10px;
+  align-items: center;
+  margin-top: 0px;
+  flex-grow: 1;
+  /* align-self: right; */
+  flex-grow: 1;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ecg-container {
+  width: 110%;
+  position: relative;
+  margin-right: 70px;
+  /* display: flex; */
+  /* justify-content: center;  */
+}
